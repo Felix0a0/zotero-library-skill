@@ -619,7 +619,7 @@ def build_parser() -> argparse.ArgumentParser:
 
 def add_item_selection_args(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("--collection", help="Collection key.")
-    parser.add_argument("--collection-path", help="Collection path, e.g. 'My Library > Topic > Subtopic'.")
+    parser.add_argument("--collection-path", help="Collection path, e.g. 'Research > Topic > Subtopic'.")
     parser.add_argument("--top", action="store_true", default=True, help="Use top-level parent items.")
     parser.add_argument("--include-children", dest="top", action="store_false", help="Include child items in item listing.")
     parser.add_argument("--q", help="Quick search string.")

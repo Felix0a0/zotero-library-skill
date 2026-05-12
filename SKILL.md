@@ -72,7 +72,7 @@ python <skill>/scripts/zotero_api.py items --q "transfer learning photovoltaic" 
 Search parent items inside a Zotero folder path:
 
 ```bash
-python <skill>/scripts/zotero_api.py items --collection-path "My Library > Topic > Subtopic" --max 10
+python <skill>/scripts/zotero_api.py items --collection-path "Research > Topic > Subtopic" --max 10
 ```
 
 Pack one or more parent items for summarization:
@@ -84,7 +84,7 @@ python <skill>/scripts/zotero_api.py pack --keys ITEMKEY1,ITEMKEY2 --out-dir zot
 Pack a Zotero folder path:
 
 ```bash
-python <skill>/scripts/zotero_api.py pack --collection-path "My Library > Topic > Subtopic" --max 20 --out-dir zotero_pack
+python <skill>/scripts/zotero_api.py pack --collection-path "Research > Topic > Subtopic" --max 20 --out-dir zotero_pack
 ```
 
 Pack a collection key:

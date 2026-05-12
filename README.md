@@ -12,7 +12,7 @@ A Codex skill for connecting to a Zotero library, locating papers by item key or
 ## Main Capabilities
 
 - Connect to Zotero via Web API
-- Resolve Zotero folder paths such as `功率预测 > 迁移学习`
+- Resolve Zotero folder paths such as `Research > Topic > Subtopic`
 - Fetch item metadata, attachments, and full-text indexes
 - Support single-paper and batch-paper reading workflows
 - Keep final summaries in chat by default instead of saving them to files
@@ -33,8 +33,8 @@ $env:ZOTERO_LIBRARY_ID="your_numeric_user_id"
 ```powershell
 python scripts/zotero_api.py whoami
 python scripts/zotero_api.py collections --tree
-python scripts/zotero_api.py items --collection-path "功率预测 > 迁移学习" --max 5
-python scripts/zotero_api.py pack --collection-path "功率预测 > 迁移学习" --max 3 --out-dir zotero_pack
+python scripts/zotero_api.py items --collection-path "Research > Topic > Subtopic" --max 5
+python scripts/zotero_api.py pack --collection-path "Research > Topic > Subtopic" --max 3 --out-dir zotero_pack
 ```
 
 ## Installation
