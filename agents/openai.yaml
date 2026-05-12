@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zotero Library"
+  short_description: "Connect Zotero and summarize papers."
+  default_prompt: "Connect to my Zotero library, fetch one or more papers, read available full text or PDFs, and produce structured summaries."
